@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FA.JustBlog", "FA.JustBlog.csproj", "{93B3B36B-FB0B-4FE7-8534-EE3E0866E742}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8914347B-0EC1-4E60-B363-C420A8FDA5B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FA.JustBlog.Core", "..\FA.JustBlog.Core\FA.JustBlog.Core.csproj", "{096FE457-CC49-4B05-AD89-EC4EFF684BB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93B3B36B-FB0B-4FE7-8534-EE3E0866E742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93B3B36B-FB0B-4FE7-8534-EE3E0866E742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93B3B36B-FB0B-4FE7-8534-EE3E0866E742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93B3B36B-FB0B-4FE7-8534-EE3E0866E742}.Release|Any CPU.Build.0 = Release|Any CPU
+		{096FE457-CC49-4B05-AD89-EC4EFF684BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{096FE457-CC49-4B05-AD89-EC4EFF684BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{096FE457-CC49-4B05-AD89-EC4EFF684BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{096FE457-CC49-4B05-AD89-EC4EFF684BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDEC442B-B309-453F-936F-AEBCF1391D71}
+	EndGlobalSection
+EndGlobal
