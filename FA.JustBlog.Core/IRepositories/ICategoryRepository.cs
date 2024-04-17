@@ -10,7 +10,7 @@ namespace FA.JustBlog.Core.IRepositories
     public interface ICategoryRepository
     {
         Category Find(int categoryId);
-         void AddCategory(Category category);
+         int AddCategory(Category category);
 
         // Implemet asyn method
 

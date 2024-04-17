@@ -17,10 +17,14 @@ namespace FA.JustBlog.Core.Repositories
         {
             _context = context;
         }
-        public void AddCategory(Category category)
+        public int AddCategory(Category category)
         {
+            if (category == null)
+            {
+                return 1;
+            }
             _context.Categories.Add(category);
-            _context.SaveChanges();
+            return _context.SaveChanges();
         }
 
         //Implemnt async/await method
